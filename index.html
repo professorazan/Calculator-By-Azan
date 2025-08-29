@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azan's Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="calculator">
+        <div class="calculator__output" id="display">0</div>
+
+        <div class="calculator__keys">
+            <button class="calculator__key calculator__key--operator" data-action="add">+</button>
+            <button class="calculator__key calculator__key--operator" data-action="subtract">-</button>
+            <button class="calculator__key calculator__key--operator" data-action="multiply">&times;</button>
+            <button class="calculator__key calculator__key--operator" data-action="divide">÷</button>
+            
+            <button class="calculator__key" data-action="7">7</button>
+            <button class="calculator__key" data-action="8">8</button>
+            <button class="calculator__key" data-action="9">9</button>
+            <button class="calculator__key" data-action="4">4</button>
+            <button class="calculator__key" data-action="5">5</button>
+            <button class="calculator__key" data-action="6">6</button>
+            <button class="calculator__key" data-action="1">1</button>
+            <button class="calculator__key" data-action="2">2</button>
+            <button class="calculator__key" data-action="3">3</button>
+            <button class="calculator__key" data-action="0">0</button>
+            
+            <button class="calculator__key" data-action="clear">AC</button>
+            <button class="calculator__key" data-action="decimal">.</button>
+            <button class="calculator__key calculator__key--enter" data-action="calculate">=</button>
+        </div>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
